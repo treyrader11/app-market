@@ -21,14 +21,9 @@
         <!--each 'app' is an element in the 'apps' array, which are all objects consisting of key-value pairs-->
 
         <div class="card" ng-repeat="app in apps">
-          <!--<img ng-src="{{ app.icon }}"> 
-          <h2 class="title">{{ app.title }}</h2> 
-          <p class="developer">{{ app.developer }}</p>
-          <p class="price">{{ app.price | currency }}</p>-->
           <app-info info="app"></app-info>
   
           <install-app></install-app>
-          
         </div>
     </div>
 
