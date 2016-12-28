@@ -1,8 +1,8 @@
-app.directive('appInfo', function() { 
+app.directive('installApp', function() { 
   return { 
     restrict: 'E', 
     scope: { 
-     // info: '=' 
+      info: '=' 
     }, 
     templateUrl: 'js/directives/installApp.html',
     link: function(scope, element, attrs) {
